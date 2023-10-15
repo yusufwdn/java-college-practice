@@ -65,8 +65,8 @@ public class Praktikum1 {
 
         // Penulisan nama variable yang benar harus mendeskripsikan isi dari variable
         // tersebut, dan menggunakan camelCase
-        String firstName = "Just test";
-        System.out.println(firstName);
+        String testVariable = "Just test";
+        System.out.println(testVariable);
 
         // Tipe data desimal dengan double
         double doubleNumber = 5.28;
@@ -100,5 +100,20 @@ public class Praktikum1 {
         int numberB = 4;
         System.out.println((double) numberA / numberB); // karena salah satu dirubah menjadi double, jadi hasilnya akan
                                                         // menjadi double. hasilnya 3.25
+
+        // Proyek Akhir
+        String firstName = "Kate";
+        String lastName = "Jones";
+        int myAge = 27;
+        double myHeight = 1.6;
+        double myWeight = 50.0;
+        double BMI = myWeight / (myHeight * myHeight);
+
+        System.out.println("Nama saya adalah " + firstName + " " + lastName);
+        System.out.println("Saya berusia " + myAge + " tahun");
+        System.out.println("Tinggi saya adalah " + myHeight + " meter");
+        System.out.println("Berat saya adalah " + myWeight + " kilogram");
+        System.out.println("BMI saya adalah " + BMI);
+
     }
 }
