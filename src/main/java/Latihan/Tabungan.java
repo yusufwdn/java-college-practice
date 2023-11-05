@@ -2,17 +2,20 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-
-package oop;
+package Latihan;
 
 /**
  *
- * @author YUSUF
+ * @author USER
  */
-public class Person {
-    public String name;
+public class Tabungan {
+    public int saldo;
     
-    public void cetakNama(){
-        System.out.println("Nama saya " + this.name);
+    public Tabungan(int i) {
+        this.saldo = i;
+    }
+    
+    public void ambilUang(int i) {
+        this.saldo -= i;
     }
 }

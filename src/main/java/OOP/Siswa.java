@@ -2,20 +2,21 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package latihan;
+package OOP;
 
 /**
  *
- * @author USER
+ * @author YUSUF
  */
-public class Tabungan {
-    public int saldo;
-    
-    public Tabungan(int i) {
-        this.saldo = i;
+public class Siswa {
+    public int nrp;
+    public Siswa(int i) {
+        nrp=i;
     }
-    
-    public void ambilUang(int i) {
-        this.saldo -= i;
+    public void setNrp(int i) {
+        nrp=i;
+    }
+    public int getNrp() {
+        return nrp;
     }
 }
