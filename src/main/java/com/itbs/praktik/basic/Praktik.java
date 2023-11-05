@@ -2,17 +2,14 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-
-package OOP;
+package com.itbs.praktik.basic;
 
 /**
  *
  * @author YUSUF
  */
-public class Person {
-    public String name;
-    
-    public void cetakNama(){
-        System.out.println("Nama saya " + this.name);
+public class Praktik {
+    public static void main(String[] args) {
+        System.out.println("Hello World!");
     }
 }

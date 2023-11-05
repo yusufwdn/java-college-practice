@@ -2,14 +2,21 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package com.itbs.praktik;
+package com.itbs.praktik.basic.oop;
 
 /**
  *
  * @author YUSUF
  */
-public class Praktik {
-    public static void main(String[] args) {
-        System.out.println("Hello World!");
+public class Siswa {
+    public int nrp;
+    public Siswa(int i) {
+        nrp=i;
+    }
+    public void setNrp(int i) {
+        nrp=i;
+    }
+    public int getNrp() {
+        return nrp;
     }
 }
