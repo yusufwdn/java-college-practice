@@ -9,7 +9,7 @@ package com.latihan.perbankan;
  * @author USER
  */
 public class Tabungan {
-    private int saldo;
+    protected int saldo;
     
     public Tabungan(int saldo) {
         this.saldo = saldo;
@@ -32,6 +32,5 @@ public class Tabungan {
         } else {
             return false;
         }
-        
     }
 }
