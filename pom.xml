@@ -9,6 +9,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
-        <exec.mainClass>com.itbs.praktik.Praktik</exec.mainClass>
+        <exec.mainClass>com.itbs.praktik.basic.Praktik</exec.mainClass>
     </properties>
+    <name>JavaExplore</name>
 </project>
